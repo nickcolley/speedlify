@@ -1,36 +1,25 @@
 module.exports = {
-	netlify: {
-		description: "Netlify web sites",
+	nickcolleydotcodotuk: {
+		description: "My personal website",
 		options: {
 			freshChrome: "site",
 		},
 		urls: [
-			"https://www.netlify.com/",
-			"https://www.netlify.com/donation-matching/",
-			"https://www.netlify.com/products/build/plugins/",
-			"https://www.netlify.com/with/sitecore/",
-			"https://www.netlify.com/with/drupal/",
-			"https://www.netlify.com/with/wordpress/",
-			"https://www.netlify.com/webinar/a-drupal-journey-to-the-jamstack/",
-			"https://jamstackconf.com/",
-			"https://jamstackconf.com/virtual/",
+			"https://nickcolley.co.uk/"
 		]
 	},
-	ssg: {
-		description: "Static Site Generator web sites",
+	designofforms: {
+		description: "Design Of Forms",
 		options: {
-			// if the sites don’t share assets on the same domain, we can reset
-			// chrome with each run instead of each site in every run (it’s faster)
-			freshChrome: "run"
+			freshChrome: "site"
 		},
 		urls: [
-			"https://www.11ty.dev/",
-			"https://www.gatsbyjs.org/",
-			"https://gohugo.io/",
-			"https://nextjs.org/",
-			"https://nuxtjs.org/",
-			// "https://vuepress.vuejs.org/", // kept timing out in lighthouse
-			"https://gridsome.org/",
+			"https://design-of-forms.online/",
+			"https://design-of-forms.online/deciding-requirements/collecting-assembling-and-analysing-relevant-information/", // Varied content page
+			"https://design-of-forms.online/forms-design-check-list/", // Lots of lists
+			"https://design-of-forms.online/evolving-a-design/design-to-simplify-adding-and-calculating/", // Lots of images
+			"https://design-of-forms.online/evolving-a-design/size-and-shape-of-documents-and-forms/", // Varied tables
+			"https://design-of-forms.online/table-of-symbols-for-proof-correction/", // Big table
 		]
 	}
 };
